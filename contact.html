@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <div class="container-nav">
+        <nav>
+            <ul>
+                <li><img src="img/logo.png" alt="logo" class="logo"></li>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="addProject.html">My Project</a></li>
+            </ul>
+            <a href="contact.html" class="btn-contact">Contact Me</a>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <form id="form" class="form">
+        <h1>GET IN TOUCH</h1>
+
+        <label >Name</label>
+        <input oninput="onInput()" class="input-name" type="text" id="username" >
+        <div class="eror"></div>
+        
+        <label >Email</label>
+        <input oninput="onInput()" class="input-email" type="email" id="email" >
+        <div class="eror"></div>
+
+        <label >Phone Number</label>
+        <input oninput="onInput()" class="input-phone" type="number" id="phone">
+        <div class="eror"></div>
+        
+        <label >Subject</label>
+        <select oninput="onInput()" class="input-subject" id="subject">
+            <option value="">-</option>
+            <option value="front end">front end</option>
+            <option value="back end">back end</option>
+            <option value="full stack">fullstack</option>
+        </select>
+        <div class="eror"></div>
+        
+        <label >Your Message</label>
+        <textarea oninput="onInput()" class="input-message" id="message" ></textarea>
+        <div class="eror"></div>
+        
+        <div class="btn-submit">
+            <button type="button" id="submit" onclick="onSubmit()">Submit</button>
+        </div>
+    </form>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

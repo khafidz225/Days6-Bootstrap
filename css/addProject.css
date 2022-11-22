@@ -1,0 +1,9 @@
+.navbar{
+    width: 85%;
+}
+.form{
+    width: 576px;
+}
+.grid-check{
+    grid-template-columns: auto auto !important;
+}

@@ -1,0 +1,64 @@
+.navbar{
+    width: 85%;
+    margin: auto;   
+}
+.list-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 70%;
+    margin-top: 25px;
+    padding: 45px;
+    box-shadow: 5px 5px 21px 0px rgba(135,126,126,0.75);
+
+}
+
+/* Button */
+.contact{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    color: white ;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+.download-cv{
+    margin-top: 10px;
+    background-color: #e2e8f0;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.download-cv img{
+    width: 16px;
+    margin-left: 5px;
+}
+
+/* Icon */
+.icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.icons a img{
+    width: 50px;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+
+.container-projek{
+    width: 80%;
+}
+
+.icon img{
+    width: 28px;
+}
