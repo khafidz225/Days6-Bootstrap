@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Poppins&family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 214, 214);
+}
+
+
+/* Navbar */
+.container-nav{
+    width: 100%;
+    background-color: white;
+}
+nav{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-right: 40px;
+}
+.home{
+    font-weight: bold;
+}
+nav a{
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: white;
+    background-color: #0f172a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo{
+    width: 50px;
+}
+.btn-contact{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #334155;
+    border: none;
+    border-radius: 10px;
+    color: white ;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+.btn-contact:hover{
+    border: 2px solid #334155;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #334155;
+}
+
+
+/* Container */
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 40px;
+    padding-bottom: 0;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 14px 11px 21px 0px rgba(135,126,126,0.75);
+    justify-content: center;
+}
+
+/* Container Content */
+.container-content{
+    width: 55%;
+    margin-top: 20px;
+}
+
+
+/* Content */
+.title{
+    color: #334155;
+}
+.content{
+    text-align: justify;
+}
+
+/* Button */
+.contact{
+    width: 100px;
+    padding: 10px;
+    background-color: #0f172a;
+    border: none;
+    border-radius: 30px;
+    color: white ;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+.contact:hover{
+    border: 2px solid #0f172a;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #334155;
+}
+.download-cv{
+    margin-top: 10px;
+    background-color: #e2e8f0;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.download-cv img{
+    width: 16px;
+    margin-left: 5px;
+}
+
+/* Icon */
+.icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icons a img{
+    width: 26px;
+    background-color: #0f172a;
+    border-radius: 40%;
+    padding: 10px;
+}
+icons a img:hover{
+    background-color: white;
+}
+
+/* Container-aside */
+.container-aside{
+    width: 45%;
+}
+
+
+/* Aside */
+.aside{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #e2e8f0;
+}
+.aside img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Form */
+.form{
+    width: 576px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    text-align: center;
+}
+.form input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.form input:focus{
+    outline: 2px solid #2563eb;
+}
+.form select{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.form select:focus{
+    outline: 2px solid #2563eb;
+}
+.form textarea{
+    border-radius: 10px;
+    padding: 14px;
+    border: none;
+    height: 170px;
+    margin-bottom: 14px;
+}
+.form textarea:focus{
+    outline: 2px solid #2563eb;
+}
+.eror{
+    color: red;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.btn-submit{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.form button{
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #0f172a;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.form button:hover{
+    font-weight: bold;
+    border: 2px solid #334155;
+    background-color: white;
+    transition: 0.5s;
+    color: #334155;
+}
